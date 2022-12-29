@@ -1,0 +1,83 @@
+PODS:
+  - Appboy-iOS-SDK (3.34.0):
+    - Appboy-iOS-SDK/UI (= 3.34.0)
+  - Appboy-iOS-SDK/ContentCards (3.34.0):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/Core (3.34.0)
+  - Appboy-iOS-SDK/InAppMessage (3.34.0):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/NewsFeed (3.34.0):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/UI (3.34.0):
+    - Appboy-iOS-SDK/ContentCards
+    - Appboy-iOS-SDK/Core
+    - Appboy-iOS-SDK/InAppMessage
+    - Appboy-iOS-SDK/NewsFeed
+  - FBAEMKit (12.3.2):
+    - FBSDKCoreKit_Basics (= 12.3.2)
+  - FBSDKCoreKit (12.3.2):
+    - FBAEMKit (= 12.3.2)
+    - FBSDKCoreKit_Basics (= 12.3.2)
+  - FBSDKCoreKit_Basics (12.3.2)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - tealium-swift/Attribution (2.3.2):
+    - tealium-swift/Core
+  - tealium-swift/Collect (2.3.2):
+    - tealium-swift/Core
+  - tealium-swift/Core (2.3.2)
+  - tealium-swift/Lifecycle (2.3.2):
+    - tealium-swift/Core
+  - tealium-swift/RemoteCommands (2.3.2):
+    - tealium-swift/Core
+  - tealium-swift/TagManagement (2.3.2):
+    - tealium-swift/Core
+  - TealiumBraze (2.0.0):
+    - Appboy-iOS-SDK (~> 3.2)
+    - tealium-swift/Core (~> 2.1)
+    - tealium-swift/RemoteCommands (~> 2.1)
+    - tealium-swift/TagManagement (~> 2.1)
+  - TealiumFacebook (1.1.0):
+    - FBSDKCoreKit (~> 12.0)
+    - tealium-swift/Core (~> 2.1)
+    - tealium-swift/RemoteCommands (~> 2.1)
+    - tealium-swift/TagManagement (~> 2.1)
+
+DEPENDENCIES:
+  - tealium-swift/Attribution
+  - tealium-swift/Collect
+  - tealium-swift/Core
+  - tealium-swift/Lifecycle
+  - tealium-swift/RemoteCommands
+  - tealium-swift/TagManagement
+  - TealiumBraze
+  - TealiumFacebook
+
+SPEC REPOS:
+  trunk:
+    - Appboy-iOS-SDK
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - SDWebImage
+    - tealium-swift
+    - TealiumBraze
+    - TealiumFacebook
+
+SPEC CHECKSUMS:
+  Appboy-iOS-SDK: b2f33ac7e26e364d58b3fac3aa43aeba05a93a28
+  FBAEMKit: 955ca52eba8219c20f90774e8c6ff8bc7b3192a3
+  FBSDKCoreKit: 678f64eda3f0ff25c189c2ebbfe87b1d96a85a6d
+  FBSDKCoreKit_Basics: 6bee7c1f0932432901781203fa5e587ec5099148
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  tealium-swift: 79bb4d116c4a8758844b92642afd78563fea1dd8
+  TealiumBraze: e8a87520713fd99c016555be10849887d18cfca7
+  TealiumFacebook: 5c4753537569cbe3052f12b0b04ab7f67367ef22
+
+PODFILE CHECKSUM: 974147ed5949e2245028d2809864109f6b0bbd43
+
+COCOAPODS: 1.11.2
